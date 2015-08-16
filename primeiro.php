@@ -1,9 +1,11 @@
 <?php
+    
+    // Aula Como criar um objeto
+    
     $objeto = new stdClass;
     
-    $objeto->nomes= ['john','paul','ringo','george'];
+    $objeto->beatles = ['john','paul','geroge','ringo'];
     
-    foreach ($objeto->nomes as $nome){
-        echo $nome . '<br>';
+    foreach ($objeto->beatles as $nome){
+        echo nome . '</br>';
     }
-?>
